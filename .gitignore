@@ -1,0 +1,38 @@
+# Model checkpoints and training corpora (regenerable, large)
+*.pth
+*.json
+*.pkl
+*.bin
+
+# .pt / .pkl files except artifacts/ and data/ (these ARE distributed)
+*.pt
+*.pkl
+!artifacts/
+!artifacts/*.pt
+!data/
+!data/*.pkl
+!data/*.pt
+
+# Third-party data (not redistributed, licensing constraints)
+*.gaf
+*.obo
+*.keg
+
+# Outputs and logs
+out_*/
+log_*/
+pretrain_data/
+finetune_data/
+Subgraph/
+Graph_init/
+
+# Python
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/
+
+# OS / editor
+Thumbs.db
+desktop.ini
