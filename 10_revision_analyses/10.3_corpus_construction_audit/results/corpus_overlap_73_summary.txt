@@ -1,0 +1,5 @@
+bfs_sequences 18979562
+heldout_complexes 1152
+elapsed_sec 114.4
+overlap n=606 hit_superset>=1 433 (71.5%) hit_exact>=1 1 (0.2%)
+unseen n=546 hit_superset>=1 495 (90.7%) hit_exact>=1 8 (1.5%)

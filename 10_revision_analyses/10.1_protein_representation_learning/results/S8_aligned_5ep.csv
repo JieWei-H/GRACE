@@ -1,0 +1,5 @@
+﻿config,n_pred,Precision,Recall,F1,Global_MMR,Mean_MMR,delta_F1_vs_published,source_pkl,note
+GE+BA (released),5185,0.4330,0.6904,0.5322,0.2235,0.4325,—,10_revision_analyses/10.1_protein_representation_learning/results/predictions/gen_b2base.pkl,published model; entry = out_pretrain-1/pretrain_512_4.pth
+GAT no contrastive + BA,5185,0.3290,0.6448,0.4357,0.1919,0.4116,-0.0965 (-18.1%),10_revision_analyses/10.1_protein_representation_learning/results/predictions/gen_noCL_5ep.pkl,aligned to the epoch-5 checkpoint
+ESM-2 + BA,5184,0.3223,0.6317,0.4269,0.1881,0.4072,-0.1053 (-19.8%),10_revision_analyses/10.1_protein_representation_learning/results/predictions/gen_ESM2_5ep.pkl,aligned to the epoch-5 checkpoint
+"ESM-2, no BA (beta=0)",5182,0.2727,0.5627,0.3673,0.1777,0.4240,-0.1649 (-31.0%),10_revision_analyses/10.1_protein_representation_learning/results/predictions/gen_ESM2_5ep_beta0.pkl,aligned to the epoch-5 checkpoint

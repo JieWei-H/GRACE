@@ -1,0 +1,16 @@
+﻿axis,bin,n_complexes,mean_size,Mean_MMR,Recall,source_pkl,note
+size,2-3,807,2.45,0.3504,0.1561,10_revision_analyses/10.2_heldout_generalization/results/predictions/gen_73.pkl,descriptive; no p-value
+size,4-5,182,4.31,0.3597,0.4066,10_revision_analyses/10.2_heldout_generalization/results/predictions/gen_73.pkl,descriptive; no p-value
+size,6+,163,13.06,0.2956,0.2945,10_revision_analyses/10.2_heldout_generalization/results/predictions/gen_73.pkl,descriptive; no p-value
+degree,low(<=60.0),386,2.73,0.3937,0.1062,10_revision_analyses/10.2_heldout_generalization/results/predictions/gen_73.pkl,mean PPI degree; descriptive; no p-value
+degree,mid(60.0-143.3),382,4.1,0.3276,0.2775,10_revision_analyses/10.2_heldout_generalization/results/predictions/gen_73.pkl,mean PPI degree; descriptive; no p-value
+degree,high(>143.3),384,5.91,0.3272,0.263,10_revision_analyses/10.2_heldout_generalization/results/predictions/gen_73.pkl,mean PPI degree; descriptive; no p-value
+size_x_degree,2-3 | low(<=60.0),332,2.3,0.3955,0.0843,10_revision_analyses/10.2_heldout_generalization/results/predictions/gen_73.pkl,cross size x degree; descriptive
+size_x_degree,2-3 | mid(60.0-143.3),250,2.51,0.3399,0.188,10_revision_analyses/10.2_heldout_generalization/results/predictions/gen_73.pkl,cross size x degree; descriptive
+size_x_degree,2-3 | high(>143.3),225,2.62,0.3324,0.2267,10_revision_analyses/10.2_heldout_generalization/results/predictions/gen_73.pkl,cross size x degree; descriptive
+size_x_degree,4-5 | low(<=60.0),37,4.16,0.3875,0.2162,10_revision_analyses/10.2_heldout_generalization/results/predictions/gen_73.pkl,cross size x degree; descriptive
+size_x_degree,4-5 | mid(60.0-143.3),71,4.3,0.349,0.4789,10_revision_analyses/10.2_heldout_generalization/results/predictions/gen_73.pkl,cross size x degree; descriptive
+size_x_degree,4-5 | high(>143.3),74,4.39,0.3574,0.4324,10_revision_analyses/10.2_heldout_generalization/results/predictions/gen_73.pkl,cross size x degree; descriptive
+size_x_degree,6+ | low(<=60.0),17,8.18,0.3931,0.2941,10_revision_analyses/10.2_heldout_generalization/results/predictions/gen_73.pkl,cross size x degree; descriptive; n<30 (small)
+size_x_degree,6+ | mid(60.0-143.3),61,10.38,0.2827,0.4098,10_revision_analyses/10.2_heldout_generalization/results/predictions/gen_73.pkl,cross size x degree; descriptive
+size_x_degree,6+ | high(>143.3),85,15.95,0.2768,0.2118,10_revision_analyses/10.2_heldout_generalization/results/predictions/gen_73.pkl,cross size x degree; descriptive

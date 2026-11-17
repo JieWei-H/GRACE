@@ -1,0 +1,4 @@
+﻿group,n_known,Recall,Global_MMR,Mean_MMR,n_pred,source_pkl
+training,2685,0.7196,0.26,0.4761,5185,10_revision_analyses/10.2_heldout_generalization/results/predictions/gen_73.pkl
+protein_overlap,606,0.2624,0.1341,0.338,5185,10_revision_analyses/10.2_heldout_generalization/results/predictions/gen_73.pkl
+truly_unseen,546,0.163,0.1099,0.3496,5185,10_revision_analyses/10.2_heldout_generalization/results/predictions/gen_73.pkl
