@@ -321,7 +321,7 @@ class TrainingDataBuilder:
             for i, subgraph in enumerate(noisy_subgraphs):
                 try:
                     # 编码子图
-                    encoded = self.encode_subgraph(subgraph, core_node_percent=0.2, random_seed=i)
+                    encoded = self.encode_subgraph(subgraph, random_seed=i)
                     fragments.append(f"<|im_start|>{encoded}<|im_end|>")
                 except Exception as e:
                     print(f"子图 {i} 编码失败: {str(e)}")
