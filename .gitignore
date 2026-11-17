@@ -36,3 +36,7 @@ __pycache__/
 # OS / editor
 Thumbs.db
 desktop.ini
+
+# Revision analysis predictions (small; needed to re-score the reported tables)
+!10_revision_analyses/**
+!10_revision_analyses/**/*.pkl
